@@ -172,14 +172,28 @@ print("sum of a list is :" , ans);
 # In[81]:
 
 
-lsit = [50, 24, 31, 101];
-a = len(list);
-ans = largest(a);
-print("Largest in given array is :",Ans);
-
+list1 = [50, 24, 31, 101];
+f = min(list1);
+print("smallest number in a list is: ", f);
 
 # In[ ]:
 
 
+
+# In[102]:
+
+list2 = [1,1,2,3,5,8,13,21,34,55,89];
+j = len(list2);
+i = list[0];
+for i in range (j):
+    if i < 5:
+        print(i);
+    else:
+        print("there is no value which is smaller then 5");
+        break;
+          
+          
+          
+          
 
 
